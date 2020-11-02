@@ -26,7 +26,7 @@ public class TicTacToe {
 
         char[][] field = new char[SIZE][SIZE];
 
-        System.out.println("Игра в \"Крестики-нолики\".");
+        System.out.println("Игра в \"Крестики-нолики\".\n");
 
         initField(field);
         drawField(field);
